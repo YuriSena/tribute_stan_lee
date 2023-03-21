@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #c0817e;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    color: #eceaea;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+header .nickname {
+    color: #312e2e;
+    margin: 0;
+    font-size: 30px;
+}
+
+header .line {
+    border: 1px solid #eceaea;
+    width: 1280px;
+}
+
+header .portrait {
+    width: 550px;
+    height: 500px;
+    background-image: url('assets/stan lee.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header h3 {
+    color: white;
+}
+
+header span {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #312e2e;
+}
+
+.gallery h2 {
+    font-size: 30px;
+    color: rgb(221, 221, 221);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gallery .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gallery .image-container div {
+    width: 500px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+.about {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    background-color: #bedef7;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h2 {
+    font-size: 35px;
+    color:rgb(58, 48, 48);
+    margin-bottom: 20px;
+}
+
+.about .content {
+    display: flex;
+    font-size: 20px;
+    color: rgb(58, 48, 48);
+}
+
+.about .content p {
+    width: 450px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 200px;
+    padding-top: 20px;
+}
+
+footer span {
+    margin-bottom: 20px;
+}
+
+footer span a {
+    color: rgb(170, 98, 98);
+    text-decoration: none;
+}
